@@ -1,2 +1,2 @@
-brew tap caskroom/cask
-cask 1password
+tap 'caskroom/cask'
+cask '1password'
