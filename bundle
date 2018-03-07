@@ -5,7 +5,7 @@ FileUtils.mkdir_p('/usr/local/var/mac-setup')
 require 'net/http'
 # Must be somedomain.net instead of somedomain.net/, otherwise, it will throw exception.
 Net::HTTP.start("raw.githubusercontent.com", use_ssl: true) do |http|
-  f = open('/usr/local/var/mac-setup/Brewfile')
+  f = open('/usr/local/var/mac-setup/Brewfile', 'wb')
   begin
     http.request_get('/eigilsagafos/mac-setup/master/Brewfile') do |resp|
       resp.read_body do |segment|
