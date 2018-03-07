@@ -1,0 +1,5 @@
+#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby
+
+require 'fileutils'
+
+FileUtils.mkdir_p('/usr/local/var/mac-setup')
