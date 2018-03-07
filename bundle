@@ -16,4 +16,4 @@ Net::HTTP.start("raw.githubusercontent.com", use_ssl: true) do |http|
     f.close()
   end
 end
-puts "Done."
+exec( "brew bundle --file=/usr/local/var/mac-setup/Brewfile")
