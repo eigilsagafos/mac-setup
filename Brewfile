@@ -1,1 +1,2 @@
-cask install 1password
+brew tap caskroom/cask
+cask 1password
