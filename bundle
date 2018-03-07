@@ -1,5 +1,4 @@
 #!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby
-
 require 'fileutils'
-
 FileUtils.mkdir_p('/usr/local/var/mac-setup')
+`curl https://raw.githubusercontent.com/eigilsagafos/mac-setup/master/Brewfile --output /usr/local/var/mac-setup/Brewfile`
