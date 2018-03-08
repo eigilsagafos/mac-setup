@@ -3,7 +3,6 @@ require 'fileutils'
 FileUtils.mkdir_p('/usr/local/var/mac-setup')
 
 require 'net/http'
-# Must be somedomain.net instead of somedomain.net/, otherwise, it will throw exception.
 Net::HTTP.start("raw.githubusercontent.com", use_ssl: true) do |http|
   f = File.open('/usr/local/var/mac-setup/Brewfile', 'w')
   begin
