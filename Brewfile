@@ -4,6 +4,7 @@ brew 'mas'
 brew 'node'
 brew 'yarn'
 brew 'awscli'
+brew 'terraform'
 
 cask '1password'
 cask 'iterm2'
