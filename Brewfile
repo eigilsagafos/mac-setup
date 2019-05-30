@@ -17,6 +17,7 @@ cask 'vlc'
 cask 'docker'
 cask 'google-drive-file-stream'
 cask 'visual-studio-code'
+cask 'figma'
 
 cask 'qlcolorcode'
 cask 'qlstephen'
