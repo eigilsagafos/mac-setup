@@ -1,7 +1,7 @@
 tap 'caskroom/cask'
 
 brew 'mas'
-brew 'node'
+brew 'nvm'
 brew 'yarn'
 brew 'awscli'
 brew 'terraform'
@@ -18,13 +18,6 @@ cask 'docker'
 cask 'google-drive-file-stream'
 cask 'visual-studio-code'
 cask 'figma'
-
-cask 'qlcolorcode'
-cask 'qlstephen'
-cask 'qlmarkdown'
-cask 'quicklook-json'
-cask 'webpquicklook'
-cask 'betterzip'
 
 mas 'Spark', id: 1176895641
 mas 'Fantastical 2', id: 975937182
