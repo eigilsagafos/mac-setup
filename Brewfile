@@ -6,7 +6,6 @@ brew 'yarn'
 brew 'awscli'
 brew 'terraform'
 brew 'git'
-brew 'bash-completion'
 
 cask '1password'
 cask 'iterm2'
