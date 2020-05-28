@@ -1,5 +1,3 @@
-tap 'homebrew/cask-cask'
-
 brew 'mas'
 brew 'nvm'
 brew 'yarn'
