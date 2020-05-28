@@ -17,6 +17,7 @@ cask 'docker'
 cask 'google-drive-file-stream'
 cask 'visual-studio-code'
 cask 'figma'
+cask 'zoomus'
 
 mas 'Spark', id: 1176895641
 mas 'Fantastical 2', id: 975937182
